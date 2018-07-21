@@ -1,0 +1,81 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: url(../images/cover2.jpg);
+	background-size: cover;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+/*continer starts*/
+.container{
+	width: 1140px;
+	margin: 0 auto;
+}
+
+/*signup-section starts*/
+.signup-section{
+	width: 80%;
+	margin: 0 auto;
+	margin-bottom: 70px;
+
+}
+.signup-section h1{
+	text-align: center;
+	color: #fff;
+	font-family: 'Fira Sans', sans-serif;
+	font-weight: 300;
+	letter-spacing: 3px;
+	margin-top: 30px;
+	font-size: 65px;
+
+}
+
+/*fo-cust starts here*/
+.fo-cust{
+	width: 56%;
+	background-color: #7d3f9885;
+	margin: 0 auto;
+	margin-top: 100px;
+	padding-bottom: 25px;
+}
+.fo-cust h2{
+	font-size: 44px;
+	padding: 42px;
+	color: #fff;
+	text-align: center;
+	font-weight: 300;
+	letter-spacing: 1px;
+}
+
+/*form-control start*/
+.form-control{
+	width: 76%;
+    padding: 16px;
+    margin: 0 auto;
+    display: block;
+    border: none;
+    border-radius: 7px;
+}
+
+/*form-btn starts*/
+.form-btn{
+
+	font-size: 24px;
+    color: #fff;
+    background-color: #D52685;
+    padding: 15px 26px;
+    display: block;
+    margin: 0 auto;
+    transition: .6s;
+    border: none;
+    border-radius: 3px;
+    margin-bottom: 20px;
+}
+
+.form-btn:hover{
+	cursor: pointer;
+	background-color: #D9EDF7;
+	color: black;
+}

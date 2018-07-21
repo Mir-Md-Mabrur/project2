@@ -1,0 +1,79 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'Roboto Condensed', sans-serif;
+	background: url(../images/cover.gif);
+	background-size: cover;
+}
+.container{
+	width: 410px;
+	height: 150px;
+	margin: 8% auto;
+}
+
+/*login-section starts*/
+.login-section{
+	background-color: #83558ec7;
+	padding: 15px;
+	border-radius: 8px;
+}
+
+/*img*/
+.login-section img{
+	width: 165px;
+	height: 165px;
+	display: block;
+	margin: 0 auto;
+}
+
+/*h3*/
+.login-section h3{
+	text-align: center;
+	font-size: 32px;
+	padding: 20px 0;
+	
+}
+
+/*input field*/
+.form-control{
+	width: 90%;
+    padding: 13px;
+    border: 1px solid black;
+    border-radius: 4px;
+    margin-bottom: 9px;
+}
+
+/*login-btn starts*/
+.login-btn{
+	padding: 12px 28px;
+    font-size: 17px;
+    background-color: #6495ed;
+    border: 1px;
+    border-radius: 4px;
+    display: block;
+    margin: 10px auto;
+    transition: .7s;
+}
+
+/*login-btn hover*/
+.login-btn:hover{
+	cursor: pointer;
+	color: white;
+    background-color: darkviolet;
+    box-shadow: 4px 4px 8px #fff;
+
+}
+
+/*ancor tag starts*/
+.login-section a{
+	text-decoration: none;
+	font-size: 20px;
+	padding-top: 14px;
+	color: #fff;
+	padding: 5px;
+}
+.login-section a:hover{
+	color: #333333;
+}
