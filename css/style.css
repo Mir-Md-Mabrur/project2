@@ -73,7 +73,9 @@ body{
 	padding-top: 14px;
 	color: #fff;
 	padding: 5px;
+	transition: .4s;
 }
 .login-section a:hover{
 	color: #333333;
+	font-size: 32px;
 }
